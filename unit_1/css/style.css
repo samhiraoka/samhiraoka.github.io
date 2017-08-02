@@ -1,5 +1,5 @@
 body {
-	background-color: blue;
+	background-color: gray;
 }
 
 h1, p {
@@ -16,4 +16,5 @@ img {
     display: block;
     margin: auto;
     width: 30%;
+    background-color: black;
 }
