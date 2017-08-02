@@ -11,3 +11,9 @@ ul {
 	text-align: center;
 	background-color: yellow;
 }
+
+img {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
