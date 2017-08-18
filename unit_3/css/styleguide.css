@@ -19,7 +19,7 @@
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: -8px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -62,13 +62,24 @@ li a:hover {
 
 .news {
 	text-align: center;
-    padding-top: 9%;
+    padding-top: 6%;
     color: black;
+    font-size: 15pt;
 }
 
-
-
-
+#container {
+  display: flex;                  
+  flex-direction: row;            
+  flex-wrap: nowrap;              
+  justify-content: space-around; 
+  background-color: #fff;
+  padding-top: 20px;
+}
+#container > div {
+  width: 320px;
+  height: 190px;
+  border: 10px black;
+}
 
 
 
