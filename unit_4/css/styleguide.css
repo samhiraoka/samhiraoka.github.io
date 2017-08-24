@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster');
+
+#heroimage {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  height: 60%;
+  z-index: -1;
+  background-attachment: fixed;
+
+}
+
+#key { 
+	position: absolute;
+    top: 0px;
+    left: 75px;
+    height: 25%;
+    width: 15%;
+    background-attachment: fixed;
+ }
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 30%;
+    position: fixed;
+    bottom: 40%;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+    font-family: "Lobster";
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 900;
+    font-size: larger;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 48px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000;
+}
+
+#greenroom {
+  font-family: "Acme";
+	font-style: oblique;
+	font-weight: bolder;
+	font-size: 24pt;
+	color: black;	
+	padding-top: 115px;
+    padding-left: 109px;
+}
+
+.news {
+    font-family: "Acme";
+	  text-align: center;
+    padding-top: 6%;
+    color: black;
+    font-size: 15pt;
+}
+
+#container {
+  display: flex;                  
+  flex-direction: row;            
+  flex-wrap: nowrap;              
+  justify-content: space-around; 
+  background-color: #fff;
+  padding-top: 20px;
+}
+#container > div {
+  width: 320px;
+  height: 190px;
+  border: 10px black;
+}
+
+#left {
+  background-attachment: fixed;
+}
+
+#right {
+  background-attachment: fixed;
+}
+
+#middle {
+  background-attachment: fixed;
+}
+
