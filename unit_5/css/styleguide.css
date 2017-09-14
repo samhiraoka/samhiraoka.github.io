@@ -1,68 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Lobster');
-
+* { margin:0; padding:0; box-sizing:border-box; }
 #heroimage {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  min-width: 100%;
-  height: 60%;
-  z-index: -1;
-  background-attachment: fixed;
-
+	background:url(../images/hero_image.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	height:75vh;
 }
-
-#key { 
-	  position: fixed;
-    top: 0px;
-    left: 75px;
-    height: 25%;
-    width: 15%;
-    background-attachment: fixed;
- }
-
-ul {
+nav {
     list-style-type: none;
-    margin: -8px;
-    padding: 0;
-    overflow: hidden;
     background-color: #333;
-    padding-left: 30%;
-    position: fixed;
-    bottom: 40%;
-    width: 100%;
-
 }
-
-li {
-    float: left;
+nav a {
+    color: white;
+    display: inline-block;
     font-family: "Lobster";
     text-transform: capitalize;
     font-style: italic;
     font-weight: 900;
     font-size: larger;
-
-}
-
-li a {
-    display: block;
-    color: white;
     text-align: center;
     padding: 20px 48px;
     text-decoration: none;
 }
-
-li a:hover {
+nav a:hover {
     background-color: #000;
 }
 
 #greenroom {
   font-family: "Acme";
-	font-style: oblique;
-	font-weight: bolder;
-	font-size: 24pt;
-	color: black;	
-	padding-top: 115px;
-  padding-left: 109px;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 24pt;
+  color: black;
 }
 
 .news {
@@ -72,53 +42,11 @@ li a:hover {
     color: black;
     font-size: 15pt;
 }
-
-#container {
-  display: flex;                  
-  flex-direction: row;            
-  flex-wrap: nowrap;              
-  justify-content: space-around; 
-  background-color: #fff;
-  padding-top: 20px;
+#container section {
+    width: 33.33%;
+    float: left;
+    padding: 1em;
 }
-#container > article {
-  width: 320px;
-  height: 190px;
-  border: 10px black;
-}
-
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-div, section {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-article {
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-footer {
-    background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-main {
-    background-color: #fff;
-    border: 1px black solid;
-    padding: 20px;
+#container img {
+    width: 100%;
 }
