@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster');
+* { margin:0; padding:0; box-sizing:border-box; }
+#heroimage {
+	background:url(../images/hero_image.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:75vh;
+}
+nav {
+    list-style-type: none;
+    background-color: #333;
+    width: 100%;
+    padding-left: 15%;
+}
+nav a {
+    color: white;
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    background-color: #333;
+    font-family: "Lobster";
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+    padding: 20px 48px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #000;
+}
+
+#greenroom {
+  font-family: "Acme";
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 24pt;
+  color: black;
+}
+
+.news {
+    font-family: "Acme";
+	  text-align: center;
+    padding-top: 6%;
+    color: black;
+    font-size: 15pt;
+}
+#container section {
+    width: 33.33%;
+    float: left;
+    padding: 1em;
+}
+#container img {
+    width: 100%;
+}
+#container {
+    text-align: center;
+    padding-top: 30px;
+}
+footer {
+    text-align: center;
+    padding: 5em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0
+    font-size: 0;
+
+}
+
+h2, h3 {
+    text-transform: capitalize;
+}
+
+ #two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+ }
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
