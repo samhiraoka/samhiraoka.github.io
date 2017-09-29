@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    font-size: 24px;
+}
+
+#heroimage {
+	background:url(../images/hero_image.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 75vh;
+}
+nav {
+    list-style-type: none;
+    background-color: #333;
+    width: 100%;
+    padding-left: 15%;
+}
+nav a {
+    color: white;
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    background-color: #333;
+    font-family: "Lobster";
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1% 5%;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #000;
+}
+
+#greenroom {
+  font-family: "Acme";
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 1em;
+  color: black;
+}
+
+#news {
+    font-family: "Acme";
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: black;
+    font-size: .7em;
+}
+#container section {
+    width: 33.33%;
+    float: left;
+    padding: 1em;
+}
+#container img {
+    width: 100%;
+}
+#container {
+    text-align: center;
+    padding-top: 3%;
+}
+footer {
+    text-align: center;
+    padding: 5em;
+    font-size: .5em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0
+    font-size: 0;
+
+}
+
+h2, h3 {
+    text-transform: capitalize;
+}
+
+ #two_column {
+    background-color: grey;
+    border: 1% black solid;
+    padding: 2%;
+ }
+
+#left {
+    background-color: inherit;
+    border: 1% black solid;
+    padding: 2%;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: inherit;
+    border: 1% black solid;
+    padding: 2%;
+    float: right;
+    width: 62%;
+}
+
+@media only screen and (max-width: 1197px) {
+    nav a {
+        float: none;
+        width: auto;
+    }
+    #container section {
+        float: none;
+        width: auto;
+    }
+    #container img {
+    width: 70%;
+    }
+    a, h2, h3 {
+        font-size: .8em;
+    }
+
+}
