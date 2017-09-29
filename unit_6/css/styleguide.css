@@ -39,10 +39,11 @@ nav a:hover {
   color: black;
 }
 
-.news {
+#news {
     font-family: "Acme";
 	  text-align: center;
-    padding-top: 6%;
+    padding-top: 3%;
+    padding-bottom: 2%;
     color: black;
     font-size: 15pt;
 }
@@ -78,13 +79,13 @@ h2, h3 {
 }
 
  #two_column {
-    background-color: #FFB7CF;
+    background-color: grey;
     border: 1px black solid;
     padding: 20px;
  }
 
 #left {
-    background-color: #E582A2;
+    background-color: inherit;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -92,7 +93,7 @@ h2, h3 {
 }
 
 #right {
-    background-color: #E55B88;
+    background-color: inherit;
     border: 1px black solid;
     padding: 20px;
     float: right;
